@@ -1,0 +1,80 @@
+body {
+    background-color: #F7F8F8;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    margin: 0.5%;
+    background-color: #F7F8F8;
+    justify-content: flex-;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+   
+nav.navigation1 {
+    background-color: #F7F8F8;
+    color: rgb(118, 116, 116);
+    padding: 0%;
+    margin: 0; /* Remove auto margin */
+    font-size: small;
+    width: 100%; /* Make nav full width */
+}
+
+  nav.navigation1 ul {
+    display: flex;
+    justify-content: space-between; /* Spread items to edges */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.navigation1 li {
+    display: inline; /* Optional, flex handles layout */
+    margin-right: 1rem;
+}
+
+nav.navigation1 li:last-child,
+nav.navigation1 li:nth-last-child(2) {
+    margin-right: 1%;
+}
+
+nav.navigation2 {
+    color: rgb(118, 116, 116);
+    padding: 0%;
+    margin: 2%;
+    border-radius: 1%;
+    width: 100%; /* Make nav full width */
+    background-color: #ffffff;
+
+    }
+    nav.navigation2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.navigation2 li {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+nav.navigation2 li img {
+    height: 32px;
+    width: auto;
+    margin-right: 1rem;
+}
+
+
+
