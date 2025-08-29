@@ -24,6 +24,12 @@ body {
   justify-content: space-between;
   background-color: #ffffff;
   width: 100%;
+  position: sticky;
+  top: 0;
+  box-shadow: #c0c6c6;
+  font-family: 'Graphik Compact', sans-serif;
+  color: #505666;
+  font-size: 18px;
 }
 
 nav.navigation1 {
@@ -31,7 +37,7 @@ nav.navigation1 {
   color: rgb(118, 116, 116);
   padding: 0%;
   margin: 0;
-  font-size: small;
+  font-size: 18px;
   width: 100%;
 }
 
@@ -61,6 +67,7 @@ nav.navigation2 {
   border-radius: 1%;
   width: 100%;
   background-color: #ffffff;
+  position: sticky;
 }
 
 nav.navigation2 ul {
@@ -279,6 +286,7 @@ nav.navigation2 li img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .updates h1 {
@@ -322,6 +330,54 @@ nav.navigation2 li img {
   transform: scale(1.1);
   filter: none;
   color: #fff;
+}
+
+/* update items*/
+.update-items {
+  border-top: 2px solid rgb(208, 202, 202);
+  width: 80%;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  
+}
+.update-items h2 {
+  font-size: 24px;
+  padding: 25px;
+}
+.update-items p, h4 {
+  font-size: 20px;
+}
+.update-items h3 {
+  color: #adb4b4d1;
+
+}
+.update-item {
+  display: flex;
+
+}
+.up-item1 {
+  width: 70%;
+  margin: 10px;
+}
+.up-item1 img {
+  width: 100%;
+
+}
+.up-item2 {
+  
+  margin: 10px;
+
+}
+.up-item2 img {
+  width: 25%;
+}
+.cons {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  gap: 10px;
+  
 }
 
 /* FOOTER*/
